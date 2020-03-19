@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* BACKGROUND IMAGES ON DIV TAGS*/
+
+.section-container {
+    width: 100%;
+
+}
+
+.section-one-top {
+    background-image: url(/background-img/top-sec.png);
+    height: 139vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    position: relative;
+
+}
+
+.section-two-body {
+    background-image: url(/background-img/bg-body.png);
+    height: 495vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    margin-top: -950px;
+}
+
+.section-tre-footer {
+    background-image: url(/background-img/footer.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 5;
+
+}
+/* NAVBAR */
+
+.nav {
+    padding-right: 25px;
+}
+
+.navbar-container ul {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    margin-left: 40px;
+}
+
+li {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(34, 34, 116);
+}
+
+/* CONVERSTAION */
+
+.text-container1 {
+    background-image: url(/background-img/text-container-b.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    float: right;
+}
+.text-container2 {
+    background-image: url(/background-img/text-container-g.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    float: left;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+
